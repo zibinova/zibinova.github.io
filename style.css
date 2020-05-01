@@ -1,0 +1,83 @@
+header{
+  height:300px;
+  position:relative;
+  width:100%;
+  display:flex;  
+  border-top:3px solid black;
+}
+main{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+  
+.title{
+  position:absolute;
+  bottom:-10px;
+  left:250px;
+  font-family:"Abril Fatface",serif;
+  color:#222;
+  font-size:18px;
+  }
+
+.anakin{
+font-size:80px;
+}
+
+h2{
+  text-transform:uppercase;
+  font-family:"Josefin Sans",sans-serif;
+  padding-bottom:30px;
+  padding-top:20px;
+}
+
+h3{
+padding:0;
+margin:0; 
+font-family:"Josefin Sans", sans-serif;
+}
+
+h4{
+  font-family:"Merriweather"; serif;
+  font-style:italic;
+  font-size:15px;
+  margin-top:0;
+  color: #222;
+}
+.first{
+  font-family:"Josefin Sans", sans-serif;
+  color:#222 grey;
+  font-size:17px;
+
+}
+p{
+  font-family:"Josefin Sans", sans-serif;
+  color:#222;
+}
+
+ul{
+  list-style-type:square;
+  font-size:15px;
+  font-family:"Josefin Sans", sans-serif;
+  color:#222;
+  
+}
+
+div{
+   margin: 0 auto;
+   width:60%;
+}
+
+footer{
+  border-top:5px solid #222;
+  margin-top:50px;
+  padding-top:20px;
+   
+}
+.box{
+  width:100%;
+  height:160px;
+  background:#484848;
+  padding-right:80px;
+  margin-left:-50px;
+}
